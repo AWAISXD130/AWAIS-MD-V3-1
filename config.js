@@ -6,16 +6,16 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "Ods1GAZZ#xyNIDFDjxYgLPJMutmwaLR-HcDJs4JhLdE4nsYcta6A",
+    SESSION_ID: process.env.SESSION_ID || "qY0FTBJS#NxqBMkrYKg5NO_K0qRIrnordHSRrdix6iTHJ5wzjntI",
     HEART_REACT: process.env.HEART_REACT || "false",
     CAPTION: process.env.CAPTION || "*ᴘᴏᴡᴅᴇʀᴇᴅ ʙʏ ᴀᴡᴀɪsxᴄʜᴜᴢᴢᴀ*",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",
     CURRENT_STATUS: process.env.CURRENT_STATUS || "false",
     MODE: process.env.MODE || "private",
-    AUTO_VOICE: process.env.AUTO_VOICE || "false",
+    AUTO_VOICE: process.env.AUTO_VOICE || "true",
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     AUTHOR: (process.env.PACK_INFO?.split(';') || [])[0] || 'AWAIS MD',
     PACKNAME: (process.env.PACK_INFO?.split(';') || [])[1] || '923182832887',
